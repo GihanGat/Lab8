@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">ScoreKeeperSolution</string>
+    <string name="title_string">ScoreKeeper</string>
+    <string name="teamA_title_string">Team A</string>
+    <string name="teamB_title_string">Team B</string>
+    <string name="increase_string">+</string>
+    <string name="decrease_string">-</string>
+
+    <string name="title_activity_settings">Settings</string>
+    <!--Settings menu -->
+    <string name="menu_settings">Settings</string>
+
+    <!-- About Menu-->
+    <string name="menu_about">Easy way to track scores when playing games</string>
+
+
+    <!-- Settings Menu items-->
+    <string name="saved_scores">Score Values Preferences</string>
+    <string name="remember_scores">Recent Score Values</string>
+    <string name="remember_scores_summery">Save Most Recent Score Values</string>
+    <string name="default_remember_scores_pref">True</string>
+    <string name="saved_scored_teamA">Team A Score :</string>
+    <string name="saved_scored_teamB">Team B Score :</string>
+    <string name="default_score_teamA">0</string>
+    <string name="default_score_teamB">0</string>
+
+    <string name="saved_teamA_score"></string>
+    <string name="saved_teamB_score"></string>
+
+    <string name="point_factor_title">Point Factor ?</string>
+    <string name="point_factor_summary">sets the point iteration factor.</string>
+    <string-array name="point_factor_keys">
+        <item>2 Points</item>
+        <item>4 Points</item>
+        <item>6 points</item>
+    </string-array>
+    <string-array name="point_factor_values">
+        <item>2</item>
+        <item>4</item>
+        <item>6</item>
+    </string-array>
+    <string name="point_factor_default">2</string>
+</resources>

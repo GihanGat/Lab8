@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:key="pref_saved_scores"
+        android:title="@string/saved_scores"
+        android:icon="@drawable/ic_settings"
+        />
+    <CheckBoxPreference
+        android:key="pref_remember_scores"
+        android:title="@string/remember_scores"
+        android:summary="@string/remember_scores_summery"
+        android:defaultValue="@string/default_remember_scores_pref"/>
+    <EditTextPreference
+        android:key="pref_saved_teamA_score"
+        android:title="@string/saved_scored_teamA"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:defaultValue="@string/saved_teamA_score" />
+    <EditTextPreference
+        android:key="pref_saved_teamB_score"
+        android:title="Team B Score :"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:defaultValue="@string/saved_teamB_score" />
+    <ListPreference
+        android:key="pref_point_factor"
+        android:title="@string/point_factor_title"
+        android:summary="@string/point_factor_summary"
+        android:dialogTitle="@string/point_factor_title"
+        android:entries="@array/point_factor_keys"
+        android:entryValues="@array/point_factor_values"
+        android:defaultValue="@string/point_factor_default"/>
+</PreferenceScreen>

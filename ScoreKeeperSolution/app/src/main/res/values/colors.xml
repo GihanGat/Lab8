@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#EC791F</color>
+    <color name="uglyBackground">#E9C674</color>
+    <color name="uglyTableRow">#B6A824</color>
+    <color name="uglyHeader">#3A8849</color>
+    <color name="uglyContent">#EE9D65</color>
+    <color name="uglyButton">#DCF864</color>
+</resources>
